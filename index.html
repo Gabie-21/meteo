@@ -10,15 +10,19 @@
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city...." required class="search-form-input">
+        <form class="search-form" id="search-form">
+            <input type="search" 
+            placeholder="Enter a city...." 
+            required 
+            id="search-form-input"
+            class="search-form-input">
             <input type="submit" value="Search" class="search-form-button">
         </form>
     </header>
     <main>
         <div class="weather-app-data">
         <div>
-        <h1 class="weather-app-city">Paris</h1>
+        <h1 class="weather-app-city" id="city">Paris</h1>
         <p class="weather-app-details"> Tuesday 14: 49, scattered clouds
             <br />
             Humididty:<strong>66%</strong> , Wind: <strong>3.13km/h</strong> 
@@ -38,8 +42,8 @@
             <a href="https://github.com/Gabie-21?tab=repositories" target="_blank">open-sourced on GitHub</a>
             and
             <a href="https://app.netlify.com/teams/gabie-21/sites" target="_blank">hosted on Netlify</a>
-            </div>
     </footer>
-    
+    </div>
+   <script src="src/index.js"></script> 
 </body>
 </html>
