@@ -55,8 +55,8 @@ function handleSearchSubmit(event) {
 }
 
 function getForecast(city) {
-  let apiKey = "b2a5adcct04b33178913oc335f405433";
-  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  let apiKey = "dbo2dde1863fta62243f1bb03c43d733";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?lon={lon}&lat=${city}&key=${apiKey}&units=metric`;
   axios(apiUrl).then(displayForecast);
 }
 
@@ -90,4 +90,4 @@ function displayForecast(response) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
-searchCity("Paris");
+searchCity("Lusaka");
