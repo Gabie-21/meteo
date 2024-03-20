@@ -56,7 +56,7 @@ function handleSearchSubmit(event) {
 
 function getForecast(city) {
   let apiKey = "dbo2dde1863fta62243f1bb03c43d733";
-  let apiUrl = `https://api.shecodes.io/weather/v1/current?lon={lon}&lat=${city}&key=${apiKey}&units=metric`;
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
   axios(apiUrl).then(displayForecast);
 }
 
