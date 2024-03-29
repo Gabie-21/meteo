@@ -1,5 +1,5 @@
 body{
-    background-color: #6034ce;
+    background-color: #7d2e8d;
     font-family: "Roboto", sans-serif;
 }
 a{
@@ -56,18 +56,18 @@ header{
    background-color: #f9f7fe; 
    border: none;
    color: rgba(68, 56, 116, 0.6);
-   border-radius: 6px;
+   border-radius: 10px;
    width: 80%;
    font-size: 16px;
    padding: 15px 20px;
 }
 .search-form-button{
-    background-color: blueviolet;
+    background-color: #50175b;
     padding: 15px 30px;
     margin-left: 5px;
     border: none;
     font-size: 16px;
-    border-radius: 6px;
+    border-radius: 10px;
     color: white;
 }
 main{
@@ -85,7 +85,7 @@ main{
 
 .weather-forecast-date {
     text-align: center;
-    color: rgba(39, 33, 66, 0.4);
+    color: rgba(143, 56, 12, 0.4);
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 10px;
