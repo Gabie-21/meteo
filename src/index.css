@@ -1,6 +1,7 @@
 body{
     background-color: #f5f5dc;
     font-family: "Roboto", sans-serif;
+    background-image: url(src/img/sunsetfoto2.jpg);
 }
 a{
     color: #885df1; 
